@@ -1,8 +1,7 @@
-import {BrowserRouter, Routes, Route, Naviaget} from 'react-router-dom'
+import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Services from "./pages/Services"
-import Cards from "./components/Cards";
 import Home from './pages/Home';
 function App() {
   
