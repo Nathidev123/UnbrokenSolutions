@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Services from "./pages/Services"
 import Home from './pages/Home';
-import EmailForm from './components/EmailForm';
+import EmailForm from './pages/EmailForm';
 function App() {
   
   return (
