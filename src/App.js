@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Services from "./pages/Services"
 import Home from './pages/Home';
+import EmailForm from './components/EmailForm';
 function App() {
   
   return (
@@ -20,6 +21,10 @@ function App() {
       
       <Route path='/services'
       element={<Services />}>
+      </Route>
+
+      <Route path='/emailForm'
+      element={<EmailForm />}>
       </Route>
 
       </Routes>

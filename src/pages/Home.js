@@ -71,6 +71,11 @@ const Home = () => {
 
 
         </div>
+        
+        <div className="email-div">
+        <Link to={'/emailForm'} className='email-button'>Email Us!</Link>
+        </div>
+        
         </>
     )
 }
