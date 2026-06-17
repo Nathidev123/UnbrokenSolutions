@@ -20,6 +20,11 @@ return(
     {location.pathname === "/services" && (
         <Link to="/"  className='navlink'><IoHomeOutline /></Link>
     )}
+
+    {/*to show on form*/}
+    {location.pathname === "/emailForm" && (
+        <Link to="/"  className='navlink'><IoHomeOutline /></Link>
+    )}
     </div>
     
     </header>
