@@ -1,6 +1,5 @@
 import updatedlogo from '../assets/updatedlogo.png'
 import { Link, useLocation } from "react-router-dom"
-import { IoHomeOutline } from "react-icons/io5";
 const Navbar = () => {
 const location = useLocation()
 
@@ -18,12 +17,12 @@ return(
 
     {/*to only show services*/}
     {location.pathname === "/services" && (
-        <Link to="/"  className='navlink'><IoHomeOutline /></Link>
+        <Link to="/"  className='navlink'>Home</Link>
     )}
 
     {/*to show on form*/}
     {location.pathname === "/emailForm" && (
-        <Link to="/"  className='navlink'><IoHomeOutline /></Link>
+        <Link to="/"  className='navlink'>Home</Link>
     )}
     </div>
     

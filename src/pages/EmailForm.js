@@ -9,6 +9,7 @@ const EmailForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
         
+       
         //EmailJS service ID, template ID, and public key
         const serviceId = 'service_kd5mskc'
         const templateId = 'template_tqe19wu'
@@ -26,7 +27,7 @@ const EmailForm = () => {
         emailjs.send(serviceId, templateId, templateParams, publicKey)
         .then((response) => {
             console.log('Email sent successfully', response)
-            setAlert({ type: 'success', message: 'Your email has been sent!' })
+            setAlert({ type: 'success', message: 'Your email has been sent!, We will get back to you shortly' })
             setName('')
             setEmail('')
             setMessage('')
@@ -55,6 +56,7 @@ const EmailForm = () => {
             />
             <textarea
             cols="30"
+            placeholder="Your Message"
             rows="10"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
