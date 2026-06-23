@@ -42,7 +42,8 @@ cd UnbrokenSolutions
 npm install
 npm start
 📌 Notes
-This project is a static reference site, not a full backend system.
+This project is a static reference site, not a full backend system, currently working on version 2
+which will consist of a backend.
 
 Built as a freelance starter project to demonstrate React fundamentals and client delivery.
 
